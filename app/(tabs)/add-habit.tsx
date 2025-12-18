@@ -41,6 +41,8 @@ export default function AddHabitScreen() {
           created_at: new Date().toISOString(),
         }
       );
+      setTitle("");
+      setDescription("");
 
       router.back();
     } catch (error) {
@@ -59,12 +61,14 @@ export default function AddHabitScreen() {
         label="Title"
         mode="outlined"
         onChangeText={setTitle}
+        value={title}
         style={styles.input}
       />
       <TextInput
         label="Description"
         mode="outlined"
         onChangeText={setDescription}
+        value={description}
         style={styles.input}
       />
       <View style={styles.frequencyContainer}>
@@ -99,6 +103,7 @@ const styles = StyleSheet.create({
 
   input: {
     marginBottom: 16,
+    backgroundColor: "#fff",
   },
 
   frequencyContainer: {

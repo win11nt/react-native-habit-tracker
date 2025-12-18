@@ -12,7 +12,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useEffect, useRef, useState } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { ID, Query } from "react-native-appwrite";
-import { Swipeable } from "react-native-gesture-handler";
+import { Swipeable } from 'react-native-gesture-handler';
 import { Button, Surface, Text } from "react-native-paper";
 
 export default function Index() {
@@ -172,8 +172,7 @@ export default function Index() {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text variant="headlineSmall" style={styles.title}>
-          {" "}
-          Today's Habits
+          Todays Habits
         </Text>
         <Button mode="text" onPress={signOut} icon={"logout"}>
           Sign Out
@@ -183,9 +182,7 @@ export default function Index() {
       <ScrollView showsVerticalScrollIndicator={false}>
         {habits?.length === 0 ? (
           <View style={styles.emptyState}>
-            {" "}
             <Text style={styles.emptyStateText}>
-              {" "}
               No Habits yet. Add your first Habit!
             </Text>
           </View>
@@ -220,7 +217,6 @@ export default function Index() {
                 <View style={styles.cardContent}>
                   <Text style={styles.cardTitle}> {habit.title}</Text>
                   <Text style={styles.cardDescription}>
-                    {" "}
                     {habit.description}
                   </Text>
                   <View style={styles.cardFooter}>
@@ -236,7 +232,6 @@ export default function Index() {
                     </View>
                     <View style={styles.frequencyBadge}>
                       <Text style={styles.frequencyText}>
-                        {" "}
                         {habit.frequency.charAt(0).toUpperCase() +
                           habit.frequency.slice(1)}
                       </Text>
@@ -248,7 +243,7 @@ export default function Index() {
           ))
         )}
       </ScrollView>
-    </View>
+    </View >
   );
 }
 

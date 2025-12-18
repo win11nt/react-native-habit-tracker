@@ -56,7 +56,6 @@ export default function AuthScreen() {
     >
       <View style={styles.content}>
         <Text style={styles.title} variant="headlineMedium">
-          {" "}
           {isSignUp ? "Create Account" : "Welcome Back"}
         </Text>
 
