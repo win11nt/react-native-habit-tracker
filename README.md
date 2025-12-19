@@ -1,45 +1,47 @@
+📊 Habit Tracker App (React Native)
 
-Đây là dự án xây dựng một ứng dụng Habit Tracker hiện đại bằng React Native, Appwrite, Expo và TailwindCSS. Ứng dụng cho phép người dùng theo dõi thói quen hằng ngày, xem chuỗi streak, và quản lý việc hoàn thành thói quen với giao diện đẹp mắt.
-
----
-
-## Tech
-
-React Native – Xây dựng ứng dụng di động native
-
-Expo – Đơn giản hóa quá trình phát triển React Native
-
-Appwrite – Backend & cơ sở dữ liệu realtime
-
-TailwindCSS – CSS tiện ích-first cho giao diện đẹp
-
-React Hooks – Quản lý state và side-effects
-
-TypeScript – Tăng độ an toàn và tooling
-
-GitHub – Triển khai 
+This project is a modern Habit Tracker mobile application built with React Native, Expo, Appwrite, and TailwindCSS.
+The app helps users track daily habits, maintain streaks, and manage habit completion through a clean and visually appealing interface.
 
 ---
 
-## Tính năng
+## Tech Stack
+
+React Native – Build native mobile applications using JavaScript and React.
+
+Expo – Simplifies the React Native development workflow.
+
+Appwrite – Backend-as-a-Service providing authentication and real-time database.
+
+TailwindCSS – Utility-first CSS framework for building modern and responsive UI.
+
+React Hooks – Manage state and side effects efficiently.
+
+TypeScript – Improves code safety and developer experience.
+
+GitHub – Source code hosting and project deployment.
+
+---
+
+## Features
 
 * 🏅 **Habit Streaks**
-  Hiển thị chuỗi habit liên tục.
-  
+  Track and display continuous habit streaks.
+
 * ✅ **Add/Complete Habits**
-  Thêm mới, đánh dấu hoàn thành, xoá habit từ list.
+  Create, mark as completed, and delete habits easily.
 
 * 🔄 **Real-Time Data**
-  Đồng bộ với Appwrite ngay lập tức.
+  Instantly synchronize data with Appwrite.
 
 * 🌑 **Dark Mode Support**
-  Giao diện tối đẹp mắt với TailwindCSS.
+  Clean and elegant dark theme powered by TailwindCSS.
 
 * 📱 **Responsive Design**
-  Thiết kế mobile-first với Expo.
+  Optimized for mobile devices using Expo.
 
 * 🚀 **User Authentication**
-  Quản lý tài khoản người dùng với Appwrite.
+  Secure user account management with Appwrite.
 
 ---
 
@@ -52,13 +54,13 @@ npm install
 npm start
 ````
 
-Ứng dụng sẽ chạy tại: [http://localhost:19002](http://localhost:19002) (cho Expo development)
+The app will run at: [http://localhost:19002](http://localhost:19002) (Expo development server)
 
 ---
 
 ## 🖼️ Demo
 
-| Đăng ký / Đăng nhập | Thêm habit | Hoàn thành / Xóa | Bảng xếp hạng |
+| Sign Up / Sign In | Add Habit | Complete / Delete | Streaks |
 |---------------------|------------|------------------|---------------|
 | <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> |
 
