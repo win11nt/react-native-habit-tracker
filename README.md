@@ -47,7 +47,7 @@ GitHub – Triển khai
 
 ```bash
 git clone https://github.com/win11nt/react-native-habit-tracker
-cd habit-tracker-react-native
+cd react-native-habit-tracker
 npm install
 npm start
 ````
