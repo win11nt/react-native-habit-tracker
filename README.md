@@ -60,7 +60,7 @@ npm start
 
 | Đăng ký / Đăng nhập | Thêm habit | Hoàn thành / Xóa | Bảng xếp hạng |
 |---------------------|------------|------------------|---------------|
-| <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> | <img src="./assets/images/ranking.jpeg" width="200"/> |
+| <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> |
 
 
 ---
