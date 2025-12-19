@@ -62,7 +62,7 @@ The app will run at: [http://localhost:19002](http://localhost:19002) (Expo deve
 
 | Sign Up / Sign In | Add Habit | Complete / Delete | Streaks |
 |---------------------|------------|------------------|---------------|
-| <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> |
+| <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/todayHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> |
 
 
 ---
