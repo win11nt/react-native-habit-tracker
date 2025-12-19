@@ -56,17 +56,11 @@ npm start
 
 ---
 
-## 🖼️ Demo 
-  Đăng ký, đăng nhập. <br/>
-<img src="./assets/images/auth.jpeg" width="300" />
+## 🖼️ Demo
 
-  Thêm habit vào danh sách. <br/>
-<img src="./assets/images/addHabit.jpeg" width="300" />
+| Đăng ký / Đăng nhập | Thêm habit | Hoàn thành / Xóa | Bảng xếp hạng |
+|---------------------|------------|------------------|---------------|
+| <img src="./assets/images/auth.jpeg" width="200"/> | <img src="./assets/images/addHabit.jpeg" width="200"/> | <img src="./assets/images/Streaks.jpeg" width="200"/> | <img src="./assets/images/ranking.jpeg" width="200"/> |
 
-  Hoàn thành, xóa habit. <br/>
-<img src="./assets/images/Streaks.jpeg" width="300" />
-
-  Và đây là bảng xếp hạng. <br/>
-<img src="./assets/images/Streaks.jpeg" width="300" />
 
 ---
