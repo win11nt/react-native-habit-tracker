@@ -15,7 +15,7 @@ TailwindCSS – CSS tiện ích-first cho giao diện đẹp
 
 React Hooks – Quản lý state và side-effects
 
-TypeScript (tuỳ chọn) – Tăng độ an toàn và tooling
+TypeScript – Tăng độ an toàn và tooling
 
 GitHub – Triển khai 
 
@@ -46,7 +46,7 @@ GitHub – Triển khai
 ### Clone & Run
 
 ```bash
-git clone https://github.com/yourusername/habit-tracker-react-native.git
+git clone https://github.com/win11nt/react-native-habit-tracker
 cd habit-tracker-react-native
 npm install
 npm start
